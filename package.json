@@ -2,6 +2,13 @@
   "name": "nexperiment",
   "version": "1.0.0",
   "description": "Lightweight A/B testing solution for React and Next.js",
+  "keywords": [
+    "ab",
+    "ab-testing",
+    "split-testing",
+    "react",
+    "next.js"
+  ],
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
