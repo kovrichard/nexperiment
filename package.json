@@ -1,6 +1,6 @@
 {
   "name": "nexperiment",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Lightweight A/B testing solution for React and Next.js",
   "keywords": [
     "ab",
