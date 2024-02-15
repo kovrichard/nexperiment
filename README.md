@@ -67,9 +67,9 @@ of the users will see the A version, and 50% will see the B version.
 ```tsx
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-	<ABTestProvider items={items} prefix="custom-prefix-">
-  	  {children}
-	</ABTestProvider>
+    <ABTestProvider items={items} prefix="custom-prefix-">
+      {children}
+    </ABTestProvider>
   );
 }
 ```
@@ -80,14 +80,14 @@ Use the `useABTest` hook to get the A/B test value and ID. Make sure to use the 
 
 ```tsx
 export default function HeroSection() {
-	const abStore = useABTest();
-	const cta = abStore.getItem('cta');
+  const abStore = useABTest();
+  const cta = abStore.getItem('cta');
 
-	return (
-		<div>
-			<button id={cta.id}>{cta.value}</button>
-		</div>
-	);
+  return (
+    <div>
+      <button id={cta.id}>{cta.value}</button>
+    </div>
+  );
 }
 ```
 
